@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario centrado con Bootstrap</title>
+  <!-- Incluye los estilos de Bootstrap -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light d-flex align-items-center justify-content-center" style="height: 100vh;">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h4 class="text-center mb-4">Agregar elemento</h4>
+        <form>
+          <div class="form-group">
+            <label for="inputAgregar">Agregar elemento</label>
+            <input type="text" class="form-control" id="inputAgregar">
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Agregar</button>
+        </form>
+      </div>
+      <div class="col-md-6">
+        <h4 class="text-center mb-4">Elegir elemento para editar</h4>
+        <form>
+          <div class="form-group">
+            <label for="selectEditar">Elija el elemento para editar</label>
+            <select class="form-control" id="selectEditar">
+              <option>Elemento 1</option>
+              <option>Elemento 2</option>
+              <option>Elemento 3</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="inputNuevoTexto">Texto nuevo</label>
+            <input type="text" class="form-control" id="inputNuevoTexto">
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Editar</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Incluye los scripts de Bootstrap y jQuery al final del body -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
