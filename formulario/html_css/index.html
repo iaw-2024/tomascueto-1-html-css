@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario centrado con HTML y CSS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="card">
+          <h4 class="card-title">Agregar elemento</h4>
+          <form>
+            <div class="form-group">
+              <label for="inputAgregar">Agregar elemento</label>
+              <input type="text" class="form-control" id="inputAgregar">
+            </div>
+            <button type="submit" class="btn btn-primary">Agregar</button>
+          </form>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <h4 class="card-title">Elegir elemento para editar</h4>
+          <form>
+            <div class="form-group">
+              <label for="selectEditar">Elija el elemento para editar</label>
+              <select class="form-control" id="selectEditar">
+                <option>Elemento 1</option>
+                <option>Elemento 2</option>
+                <option>Elemento 3</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="inputNuevoTexto">Texto nuevo</label>
+              <input type="text" class="form-control" id="inputNuevoTexto">
+            </div>
+            <button type="submit" class="btn btn-primary">Editar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

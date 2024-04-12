@@ -1,0 +1,20 @@
+body {
+    background-color: #f2f2f2; /* Fondo gris clarito */
+  }
+  .list-container {
+    width: 80%; /* Ancho del contenedor */
+    margin: 0 auto; /* Centrado horizontal */
+    padding: 20px; /* Espacio alrededor del contenedor */
+    background-color: #fff; /* Fondo blanco para el contenedor */
+    border-radius: 8px; /* Bordes redondeados para el contenedor */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra para el contenedor */
+  }
+  .list-group-item {
+    width: 80%; /* Ancho de los elementos de la lista */
+    transition: background-color 0.3s ease; /* Transición para el cambio de color al pasar el mouse */
+    margin: 0 auto; /* Centrado horizontal */
+  }
+  .list-group-item:hover {
+    background-color: #ffd6e7; /* Color rosa clarito al pasar el mouse */
+    cursor: pointer; /* Cambia el cursor al pasar el mouse */
+  }
